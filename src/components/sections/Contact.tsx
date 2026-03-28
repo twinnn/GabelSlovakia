@@ -19,7 +19,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold uppercase tracking-widest text-xs mb-1">Email Us</h4>
-                  <p className="text-lg font-medium">info@go-noow.sk</p>
+                  <p className="text-lg font-medium">info@gabelpalice.sk</p>
                 </div>
               </div>
               
@@ -28,8 +28,7 @@ export const Contact = () => {
                   <MapPin className="w-6 h-6 text-gabel-yellow" />
                 </div>
                 <div>
-                  <h4 className="font-bold uppercase tracking-widest text-xs mb-1">Official Distributor</h4>
-                  <p className="text-lg font-medium">GO NOOW s.r.o.</p>
+                  <h4 className="font-bold uppercase tracking-widest text-xs mb-1">Official Gabel Distributor</h4>
                   <p className="text-black/60">Slovakia & Czech Republic</p>
                 </div>
               </div>
