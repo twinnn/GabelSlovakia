@@ -13,7 +13,7 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = ["Segments", "Technology", "Gabel for Youth", "Partners", "Contact"];
+  const navItems = ["Catalogues", "Technology", "Gabel for Youth", "Partners", "Contact"];
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? "glass-panel py-4 border-b border-white/10" : "py-6"}`}>
@@ -32,12 +32,6 @@ export const Navbar = () => {
               </a>
             ))}
           </div>
-          <a 
-            href="#segments"
-            className="bg-gabel-yellow text-black px-6 py-2 rounded-sm font-headline font-black text-xs uppercase tracking-widest hover:brightness-125 hover:scale-105 transition-all shadow-[0_0_15px_rgba(227,232,41,0.4)] flex items-center justify-center"
-          >
-            Catalogue
-          </a>
         </div>
 
         <button className="md:hidden text-white" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -62,13 +56,6 @@ export const Navbar = () => {
               {item}
             </a>
           ))}
-          <a 
-            href="#segments"
-            className="bg-gabel-yellow text-black w-full py-4 rounded-sm font-headline font-black text-sm uppercase tracking-widest shadow-[0_0_20px_rgba(227,232,41,0.3)] flex items-center justify-center"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Catalogue
-          </a>
         </motion.div>
       )}
     </nav>

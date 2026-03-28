@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
 import { Hero } from "./components/sections/Hero";
-import { Segments } from "./components/sections/Segments";
+import { Catalogues } from "./components/sections/Catalogues";
 import { Technology } from "./components/sections/Technology";
 import { YouthSection } from "./components/sections/YouthSection";
 import { Partners } from "./components/sections/Partners";
@@ -15,7 +15,7 @@ function App() {
       
       <main>
         <Hero />
-        <Segments />
+        <Catalogues />
         <Technology />
         <YouthSection />
         <Partners />

@@ -2,6 +2,10 @@ node_modules/
 build/
 dist/
 coverage/
+bin/
+obj/
+.vs/
+.claude/
 .DS_Store
 *.log
 .env*
