@@ -50,7 +50,7 @@ function CatalogueCard({ item }: { item: (typeof catalogues)[number]; key?: Reac
       <div className="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:opacity-0 transition-opacity duration-500" />
       <div className="absolute bottom-0 left-0 p-8 w-full">
-        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gabel-yellow group-hover:text-black mb-2 block transition-colors">
+        <span className="text-[10px] font-bold uppercase tracking-label text-gabel-yellow group-hover:text-black mb-2 block transition-colors">
           {item.label}
         </span>
         <h3 className="text-2xl font-headline font-bold mb-4 text-white group-hover:text-black transition-colors">
@@ -75,7 +75,7 @@ export const Catalogues = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
           <div>
-            <h2 className="text-4xl md:text-6xl font-headline font-black tracking-tight mb-4">
+            <h2 className="text-4xl md:text-6xl section-heading mb-4">
               PRODUCT <br />
               <span className="relative inline-block">
                 CATALOGUES

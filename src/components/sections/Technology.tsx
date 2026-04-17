@@ -36,11 +36,11 @@ export const Technology = () => {
   ];
 
   return (
-    <section id="technology" className="py-32 px-6 bg-[#0a0a0a]">
+    <section id="technology" className="py-32 px-6 bg-surface-dark">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-gabel-yellow mb-4 block">Italian Innovation</span>
-          <h2 className="text-5xl md:text-7xl font-headline font-black tracking-tight mb-6">TECHNOLOGY</h2>
+          <span className="section-subtitle">Italian Innovation</span>
+          <h2 className="text-5xl md:text-7xl section-heading mb-6">TECHNOLOGY</h2>
           <p className="max-w-2xl mx-auto text-white/60 text-lg">
             Decades of research and development in biomechanics and materials science.
           </p>

@@ -120,8 +120,8 @@ export const YouthSection = () => {
     <section id="gabel-for-youth" className="py-32 px-6 bg-white/5 border-y border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <span className="text-sm font-bold uppercase tracking-[0.4em] text-gabel-yellow mb-4 block">Next Generation Champions</span>
-          <h2 className="text-5xl md:text-7xl font-headline font-black tracking-tight mb-6 uppercase">GABEL FOR YOUTH</h2>
+          <span className="section-subtitle">Next Generation Champions</span>
+          <h2 className="text-5xl md:text-7xl section-heading mb-6">GABEL FOR YOUTH</h2>
           <p className="max-w-2xl mx-auto text-white/60 text-lg">
             Investing in the elite of tomorrow. Supporting the fastest young athletes with professional-grade Italian technology.
           </p>
@@ -136,7 +136,7 @@ export const YouthSection = () => {
             onPause={() => setSilverPaused(true)}
             onResume={() => setSilverPaused(false)}
             borderColor="rgb(192,192,192)"
-            className="bg-black/40 border-4 border-[#C0C0C0] p-6 pb-10 rounded-sm transition-shadow shadow-[0_20px_60px_rgba(192,192,192,0.15)] relative overflow-hidden h-[460px] order-2 lg:order-1"
+            className="bg-black/40 border-4 border-silver p-6 pb-10 rounded-sm transition-shadow shadow-glow-silver relative overflow-hidden h-[460px] order-2 lg:order-1"
             imageSize="w-28 h-28"
             nameClass="text-xl"
             specialtyClass="text-xs"
@@ -146,7 +146,7 @@ export const YouthSection = () => {
           {/* Rank 1 - Gold (static) */}
           <motion.div
             whileHover={{ scale: 1.02, boxShadow: "0 0 60px rgba(227,232,41,1), 0 25px 70px rgba(227,232,41,1)" }}
-            className="bg-black border-4 border-gabel-yellow p-8 rounded-sm z-10 shadow-[0_20px_60px_rgba(227,232,41,0.15)] transition-shadow h-[540px] overflow-hidden order-1 lg:order-2"
+            className="bg-black border-4 border-gabel-yellow p-8 rounded-sm z-10 shadow-glow-yellow-subtle transition-shadow h-[540px] overflow-hidden order-1 lg:order-2"
           >
             <div className="flex flex-col h-full">
               {/* 30% — photo */}
@@ -159,7 +159,7 @@ export const YouthSection = () => {
               {/* 20% — name & specialty */}
               <div className="h-[20%] flex flex-col items-center justify-center text-center shrink-0">
                 <h3 className="text-3xl font-headline font-black mb-2">{gold.name}</h3>
-                <span className="text-sm font-bold uppercase tracking-[0.2em] text-gabel-yellow block">{gold.specialty}</span>
+                <span className="text-sm font-bold uppercase tracking-label text-gabel-yellow block">{gold.specialty}</span>
               </div>
 
               {/* 50% — equipment (contained) */}
@@ -181,7 +181,7 @@ export const YouthSection = () => {
             onPause={() => setBronzePaused(true)}
             onResume={() => setBronzePaused(false)}
             borderColor="rgb(205,127,50)"
-            className="bg-black/40 border-4 border-[#CD7F32] p-6 pb-10 rounded-sm transition-shadow shadow-[0_20px_60px_rgba(205,127,50,0.15)] relative overflow-hidden h-[420px] order-3"
+            className="bg-black/40 border-4 border-bronze p-6 pb-10 rounded-sm transition-shadow shadow-glow-bronze relative overflow-hidden h-[420px] order-3"
             imageSize="w-24 h-24"
             nameClass="text-lg"
             specialtyClass="text-[10px] leading-tight"

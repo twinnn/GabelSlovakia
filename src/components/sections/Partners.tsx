@@ -6,7 +6,7 @@ export const Partners = () => {
   return (
     <section id="partners" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        <h3 className="text-center text-[10px] font-bold uppercase tracking-[0.5em] text-white/30 mb-16">Trusted by the Elite</h3>
+        <h3 className="text-center text-[10px] font-bold uppercase tracking-wide-label text-white/30 mb-16">Trusted by the Elite</h3>
         <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
           {partners.map((partner) => (
             <div key={partner} className="flex flex-col items-center gap-1">

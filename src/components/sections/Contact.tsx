@@ -7,7 +7,7 @@ export const Contact = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
-            <h2 className="text-5xl md:text-7xl font-headline font-black tracking-tight mb-8">GET IN <br /><span className="text-gabel-yellow">TOUCH</span></h2>
+            <h2 className="text-5xl md:text-7xl section-heading mb-8">GET IN <br /><span className="text-gabel-yellow">TOUCH</span></h2>
             <p className="text-xl text-black/60 mb-12 leading-relaxed">
               Interested in Gabel equipment or partnership? Our team is ready to provide expert advice on the best Italian gear for your needs.
             </p>
@@ -53,17 +53,17 @@ export const Contact = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold uppercase tracking-widest text-white/40">Full Name</label>
-                  <input type="text" className="w-full bg-white/5 border border-white/10 p-4 rounded-sm focus:border-gabel-yellow outline-none transition-colors" placeholder="John Doe" />
+                  <input type="text" className="input-field" placeholder="John Doe" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold uppercase tracking-widest text-white/40">Email Address</label>
-                  <input type="email" className="w-full bg-white/5 border border-white/10 p-4 rounded-sm focus:border-gabel-yellow outline-none transition-colors" placeholder="john@example.com" />
+                  <input type="email" className="input-field" placeholder="john@example.com" />
                 </div>
               </div>
               
               <div className="space-y-2">
                 <label className="text-[10px] font-bold uppercase tracking-widest text-white/40">Interested In</label>
-                <select className="w-full bg-white/5 border border-white/10 p-4 rounded-sm focus:border-gabel-yellow outline-none transition-colors appearance-none">
+                <select className="input-field appearance-none">
                   <option className="bg-black">Snow Winter Collection</option>
                   <option className="bg-black">Trekking & Outdoor</option>
                   <option className="bg-black">Nordic Walking</option>
@@ -73,10 +73,10 @@ export const Contact = () => {
               
               <div className="space-y-2">
                 <label className="text-[10px] font-bold uppercase tracking-widest text-white/40">Message</label>
-                <textarea rows={4} className="w-full bg-white/5 border border-white/10 p-4 rounded-sm focus:border-gabel-yellow outline-none transition-colors resize-none" placeholder="Tell us about your requirements..."></textarea>
+                <textarea rows={4} className="input-field resize-none" placeholder="Tell us about your requirements..."></textarea>
               </div>
               
-              <button className="w-full bg-gabel-yellow text-black font-bold uppercase tracking-[0.2em] py-5 rounded-sm hover:bg-white transition-all duration-300 shadow-lg shadow-gabel-yellow/10">
+              <button className="btn-primary w-full py-5 hover:bg-white transition-all duration-300 shadow-lg shadow-gabel-yellow/10">
                 Send Message
               </button>
             </form>

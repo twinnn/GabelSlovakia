@@ -2,8 +2,16 @@
 
 @theme {
   --color-gabel-yellow: #e3e829;
+  --color-silver: #c0c0c0;
+  --color-bronze: #cd7f32;
+  --color-surface-dark: #0a0a0a;
+
   --font-headline: "Lexend", sans-serif;
   --font-body: "Inter", sans-serif;
+
+  --tracking-label: 0.2em;
+  --tracking-subtitle: 0.4em;
+  --tracking-wide-label: 0.5em;
 }
 
 @layer base {
@@ -15,6 +23,38 @@
 @layer components {
   .glass-panel {
     @apply bg-black/60 backdrop-blur-xl border border-white/10;
+  }
+
+  .section-heading {
+    @apply font-headline font-black tracking-tight uppercase;
+  }
+
+  .section-subtitle {
+    @apply text-sm font-bold uppercase tracking-subtitle text-gabel-yellow mb-4 block;
+  }
+
+  .btn-primary {
+    @apply bg-gabel-yellow text-black font-headline font-black uppercase tracking-widest rounded-sm hover:brightness-110 transition-all;
+  }
+
+  .input-field {
+    @apply w-full bg-white/5 border border-white/10 p-4 rounded-sm focus:border-gabel-yellow outline-none transition-colors;
+  }
+
+  .shadow-glow-yellow {
+    box-shadow: 0 0 40px rgba(227,232,41,0.5);
+  }
+
+  .shadow-glow-yellow-subtle {
+    box-shadow: 0 20px 60px rgba(227,232,41,0.15);
+  }
+
+  .shadow-glow-silver {
+    box-shadow: 0 20px 60px rgba(192,192,192,0.15);
+  }
+
+  .shadow-glow-bronze {
+    box-shadow: 0 20px 60px rgba(205,127,50,0.15);
   }
 }
 
