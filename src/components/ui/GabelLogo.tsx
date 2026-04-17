@@ -4,7 +4,7 @@ export const GabelLogo = () => (
   <div className="flex items-center gap-3">
     <img 
       src="/images/logos/gabel_yellowlong_small.jpg" 
-      alt="Gabel Logo" 
+      alt="Logo Gabel"
       className="h-6 md:h-8 object-contain"
       referrerPolicy="no-referrer"
     />

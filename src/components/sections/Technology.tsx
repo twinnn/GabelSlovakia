@@ -5,32 +5,32 @@ export const Technology = () => {
   const technologies = [
     {
       title: "Snake Carbon",
-      desc: "High modulus carbon fiber with distinctive geometric structure. 20% lighter and 18% more resistant than standard carbon.",
+      desc: "Vysokomodulové karbónové vlákno s výraznou geometrickou štruktúrou. O 20 % ľahšie a o 18 % odolnejšie ako štandardný karbón.",
       icon: "💎"
     },
     {
       title: "Gate Power",
-      desc: "Integrated weight system in the grip for elite slalom racing, providing superior gate knock-down power and balance.",
+      desc: "Integrovaný váhový systém v rukoväti pre elitné slalomové preteky, zabezpečujúci vynikajúcu silu pri zrážaní bránok a rovnováhu.",
       icon: "⚡"
     },
     {
       title: "Monolock",
-      desc: "The latest evolution of Fast Lock systems. Minimalist design with 20% increased clamping capacity for total security.",
+      desc: "Najnovšia evolúcia systémov Fast Lock. Minimalistický dizajn s o 20 % vyššou upínacou kapacitou pre úplnú bezpečnosť.",
       icon: "🔒"
     },
     {
       title: "Dual Spike Lite",
-      desc: "Asymmetrical tip design developed with elite athletes for progressive grip on ice, rock, and mixed terrain.",
+      desc: "Asymetrický dizajn hrotu vyvinutý s elitnými športovcami pre progresívny úchop na ľade, skale a v zmiešanom teréne.",
       icon: "🏔️"
     },
     {
       title: "Wired Tech",
-      desc: "Innovative folding system using high-strength internal cables. Ultra-compact for easy transport in any backpack.",
+      desc: "Inovatívny skladací systém využívajúci vnútorné laná s vysokou pevnosťou. Ultra kompaktný pre jednoduchý transport v akomkoľvek batohu.",
       icon: "🔗"
     },
     {
       title: "N.C.S.",
-      desc: "Nordic Click System for instantaneous strap release. Maximum ergonomics and power transfer for Nordic Walking.",
+      desc: "Nordic Click System pre okamžité uvoľnenie pútka. Maximálna ergonómia a prenos sily pre Nordic Walking.",
       icon: "🖱️"
     }
   ];
@@ -39,10 +39,10 @@ export const Technology = () => {
     <section id="technology" className="py-32 px-6 bg-surface-dark">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <span className="section-subtitle">Italian Innovation</span>
-          <h2 className="text-5xl md:text-7xl section-heading mb-6">TECHNOLOGY</h2>
+          <span className="section-subtitle">Talianska inovácia</span>
+          <h2 className="text-5xl md:text-7xl section-heading mb-6">TECHNOLÓGIA</h2>
           <p className="max-w-2xl mx-auto text-white/60 text-lg">
-            Decades of research and development in biomechanics and materials science.
+            Desaťročia výskumu a vývoja v biomechanike a materiálovom inžinierstve.
           </p>
         </div>
 

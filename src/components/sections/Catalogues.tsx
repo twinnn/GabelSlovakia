@@ -5,27 +5,27 @@ import { usePdfThumbnail } from "../../hooks/usePdfThumbnail";
 
 const catalogues = [
   {
-    title: "SNOW WINTER",
-    label: "2026 / 2027 Collection",
-    link: "Snow Catalogue",
+    title: "ZIMA",
+    label: "Kolekcia 2026 / 2027",
+    link: "Katalóg Snow",
     pdf: "/catalogues/snow_winter_26_27.pdf",
   },
   {
-    title: "TREKKING",
-    label: "Summer 2026",
-    link: "Trekking Catalogue",
+    title: "TREKING",
+    label: "Leto 2026",
+    link: "Katalóg Trekking",
     pdf: "/catalogues/trekking_summer_26.pdf",
   },
   {
     title: "TRAIL RUNNING",
-    label: "Summer 2026",
-    link: "Trail Catalogue",
+    label: "Leto 2026",
+    link: "Katalóg Trail",
     pdf: "/catalogues/trail_running_summer_26.pdf",
   },
   {
     title: "NORDIC WALKING",
-    label: "Summer 2026",
-    link: "Nordic Catalogue",
+    label: "Leto 2026",
+    link: "Katalóg Nordic",
     pdf: "/catalogues/nordic_walking_summer_26.pdf",
   },
 ];
@@ -76,16 +76,16 @@ export const Catalogues = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
           <div>
             <h2 className="text-4xl md:text-6xl section-heading mb-4">
-              PRODUCT <br />
+              PRODUKTOVÉ <br />
               <span className="relative inline-block">
-                CATALOGUES
+                KATALÓGY
                 <div className="absolute -bottom-2 left-0 w-full h-1.5 bg-gabel-yellow" />
               </span>
             </h2>
           </div>
           <p className="max-w-md text-black/60 text-lg">
-            Explore our specialized product lines. Click on any segment to view
-            the full Italian engineering catalogue in PDF.
+            Preskúmajte naše špecializované produktové rady. Kliknite na ľubovoľný
+            segment a zobrazte kompletný taliansky katalóg v PDF.
           </p>
         </div>
 

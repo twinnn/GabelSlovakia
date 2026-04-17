@@ -26,29 +26,29 @@ export const Hero = () => (
       >
         <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full mb-8">
           <CheckCircle2 className="w-4 h-4 text-gabel-yellow" />
-          <span className="text-[10px] uppercase font-bold tracking-label text-white/90">Official Distributor SK & CZ</span>
+          <span className="text-[10px] uppercase font-bold tracking-label text-white/90">Oficiálny distribútor SK & CZ</span>
         </div>
-        
+
         <h1 className="text-5xl md:text-8xl section-heading leading-[0.9] mb-8">
-          WINTER <br />
+          ZIMA <br />
           <span className="text-gabel-yellow">26/27.</span> <br />
-          ITALIAN <br />
-          MASTERY.
+          TALIANSKE <br />
+          MAJSTROVSTVO.
         </h1>
-        
+
 
         <div className="flex flex-wrap gap-4">
-          <a 
+          <a
             href="#catalogues"
             className="btn-primary px-10 py-5 hover:scale-105 shadow-glow-yellow border-b-4 border-black/10 active:border-b-0 active:translate-y-1 flex items-center justify-center"
           >
-            Latest Catalogues
+            Najnovšie katalógy
           </a>
-          <a 
-            href="#catalogues"
+          <a
+            href="#technology"
             className="border-2 border-white/20 hover:border-white hover:bg-white/5 text-white px-10 py-5 rounded-sm font-headline font-black uppercase tracking-widest transition-all flex items-center justify-center"
           >
-            Explore Technology
+            Objavte technológie
           </a>
         </div>
       </motion.div>

@@ -32,12 +32,6 @@ export const Partners = () => {
   return (
     <section id="partners" aria-labelledby="partners-heading" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2
-          id="partners-heading"
-          className="text-center text-[10px] font-bold uppercase tracking-wide-label text-white/30 mb-16"
-        >
-          Trusted by the Elite
-        </h2>
         <ul className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
           {partners.map((partner) => (
             <li key={partner.name}>
