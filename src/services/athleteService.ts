@@ -7,7 +7,7 @@ export interface Equipment {
 
 export interface Athlete {
   name: string;
-  specialty: string;
+  club: string;
   img: string;
   equipment: Equipment[];
 }

@@ -1,8 +1,8 @@
 {
   "shopUrl": "https://go-noow.sk",
   "gold": {
-    "name": "Jakub Varga",
-    "specialty": "Alpine Slalom U18 Champion",
+    "name": "Victor JÍLEK",
+    "club": "SKI CLUB PROGRESS",
     "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1974&auto=format&fit=crop",
     "equipment": [
       { "name": "SL-R", "img": "https://picsum.photos/seed/gabel-slr/100/200" },
@@ -12,8 +12,8 @@
   },
   "silver": [
     {
-      "name": "Martin Benko",
-      "specialty": "Giant Slalom Specialist",
+      "name": "Michaela JUSKOVÁ",
+      "club": "TJ DRUŽBA SMREČANY-ŽIAR",
       "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop",
       "equipment": [
         { "name": "SL-R", "img": "https://picsum.photos/seed/gabel-slr/100/200" },
@@ -21,44 +21,35 @@
       ]
     },
     {
-      "name": "Peter Kovac",
-      "specialty": "Downhill Prospect",
+      "name": "Nela DEDÍKOVÁ",
+      "club": "LK Valčianska dolina",
       "img": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=1974&auto=format&fit=crop",
       "equipment": [
         { "name": "GS-R", "img": "https://picsum.photos/seed/gabel-gsr/100/200" },
         { "name": "DH-R", "img": "https://picsum.photos/seed/gabel-dhr/100/200" }
       ]
-    },
-    {
-      "name": "Lukas Molnar",
-      "specialty": "Super-G Talent",
-      "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1974&auto=format&fit=crop",
-      "equipment": [
-        { "name": "SL-R", "img": "https://picsum.photos/seed/gabel-slr/100/200" },
-        { "name": "World Cup", "img": "https://picsum.photos/seed/gabel-wc/100/200" }
-      ]
     }
   ],
   "bronze": [
     {
-      "name": "Sofia Novak",
-      "specialty": "Trail & Skyrunning",
+      "name": "Vladimír MIKO",
+      "club": "Ski Club ZEAL Slovakia",
       "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
       "equipment": [
         { "name": "Cobra Re-V", "img": "https://picsum.photos/seed/gabel-cobra/100/200" }
       ]
     },
     {
-      "name": "Emma Horvath",
-      "specialty": "Nordic Walking Junior",
+      "name": "Kristína HUDECOVÁ",
+      "club": "TJ DRUŽBA SMREČANY-ŽIAR",
       "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1974&auto=format&fit=crop",
       "equipment": [
         { "name": "N.C.S. Elite", "img": "https://picsum.photos/seed/gabel-ncs/100/200" }
       ]
     },
     {
-      "name": "Nina Balazova",
-      "specialty": "Cross Country Talent",
+      "name": "Jakub PAJERCHIN",
+      "club": "LK Opalisko Závažná Poruba",
       "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1974&auto=format&fit=crop",
       "equipment": [
         { "name": "XC-R", "img": "https://picsum.photos/seed/gabel-xcr/100/200" }

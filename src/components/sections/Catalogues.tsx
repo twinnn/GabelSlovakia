@@ -83,10 +83,6 @@ export const Catalogues = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-md text-black/60 text-lg">
-            Preskúmajte naše špecializované produktové rady. Kliknite na ľubovoľný
-            segment a zobrazte kompletný taliansky katalóg v PDF.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

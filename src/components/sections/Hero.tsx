@@ -29,13 +29,6 @@ export const Hero = () => (
           <span className="text-[10px] uppercase font-bold tracking-label text-white/90">Oficiálny distribútor SK & CZ</span>
         </div>
 
-        <h1 className="text-5xl md:text-8xl section-heading leading-[0.9] mb-8">
-          ZIMA <br />
-          <span className="text-gabel-yellow">26/27.</span> <br />
-          TALIANSKE <br />
-          MAJSTROVSTVO.
-        </h1>
-
 
         <div className="flex flex-wrap gap-4">
           <a
@@ -45,10 +38,10 @@ export const Hero = () => (
             Najnovšie katalógy
           </a>
           <a
-            href="#technology"
+            href="#gabel-for-youth"
             className="border-2 border-white/20 hover:border-white hover:bg-white/5 text-white px-10 py-5 rounded-sm font-headline font-black uppercase tracking-widest transition-all flex items-center justify-center"
           >
-            Objavte technológie
+            Gabel pre mládež
           </a>
         </div>
       </motion.div>
