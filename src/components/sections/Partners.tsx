@@ -32,7 +32,7 @@ export const Partners = () => {
   return (
     <section id="partners" aria-labelledby="partners-heading" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        <ul className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+        <ul className="flex flex-wrap justify-center items-center gap-12 md:gap-24">
           {partners.map((partner) => (
             <li key={partner.name}>
               <a
@@ -48,7 +48,7 @@ export const Partners = () => {
                   alt={`${partner.title} – logo`}
                   loading="lazy"
                   decoding="async"
-                  className="h-15 md:h-20 w-auto object-contain"
+                  className="h-15 md:h-20 w-auto object-contain "
                 />
               </a>
             </li>
