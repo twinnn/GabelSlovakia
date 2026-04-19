@@ -8,13 +8,6 @@ export const Footer = () => (
         <GabelLogo />
         <span className="text-xs text-white/30 font-bold">© 2024 Gabel Slovakia. Všetky práva vyhradené.</span>
       </div>
-      <div className="flex flex-wrap justify-center gap-8">
-        {["Ochrana osobných údajov", "Obchodné podmienky", "Prihlásenie distribútora"].map((link) => (
-          <a key={link} href="#" className="text-[10px] uppercase font-bold tracking-widest text-white/40 hover:text-gabel-yellow transition-colors">
-            {link}
-          </a>
-        ))}
-      </div>
     </div>
   </footer>
 );
