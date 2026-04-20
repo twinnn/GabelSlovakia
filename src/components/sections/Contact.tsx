@@ -20,7 +20,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold uppercase tracking-widest text-xs mb-1">Napíšte nám</h4>
-                  <p className="text-lg font-medium">info@go-noow.sk</p>
+                  <p className="text-lg font-medium">info@gabelpalice.sk</p>
                 </div>
               </div>
 
@@ -30,7 +30,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold uppercase tracking-widest text-xs mb-1">Oficiálny distribútor</h4>
-                  <p className="text-lg font-medium">GO NOOW s.r.o.</p>
+                  <p className="text-lg font-medium">AcEcom s.r.o.</p>
                   <p className="text-black/60">Slovensko a Česká republika</p>
                 </div>
               </div>
