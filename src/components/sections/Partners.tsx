@@ -12,7 +12,7 @@ const partners: Partner[] = [
     name: "ZSL",
     title: "Zväz slovenského lyžovania",
     href: "https://www.zvazslovenskeholyzovania.sk/",
-    logo: "/images/logos/partners/ZSL.svg",
+    logo: "/images/logos/partners/Ski_Team_Slovakia.png",
   },
   {
     name: "SFNW",
