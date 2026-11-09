@@ -1,19 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# gabelpalice.sk
 
-# Run and deploy your AI Studio app
+Website of AC ecom s. r. o., the official Gabel pole distributor for Slovakia and the Czech Republic. Live at https://www.gabelpalice.sk, hosted on Vercel.
 
-This contains everything you need to run your app locally.
+## Develop
 
-View your app in AI Studio: https://ai.studio/apps/312cafdc-f42e-46e5-895a-b1b9ec8ff43a
+```sh
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # static output in dist/
+npm run lint    # type-check
+```
 
-## Run Locally
+## Where things live
 
-**Prerequisites:**  Node.js
+- `src/components/sections/` – the homepage sections
+- `src/data/company.ts` – company details, contacts and social links (shown in Contact and the footer)
+- `src/data/athletes.json` – the Gabel4Youth ranking
+- `public/catalogues/` – catalogue PDFs; their cover images are in `public/images/catalogues/`
+- `public/video/` – the hero video (WebM + MP4, a smaller MP4 for mobile, and a poster image)
 
+## Updating a catalogue
 
-1. Install dependencies:
-   `npm install`
-2. Run the app:
-   `npm run dev`
+1. Put the PDF in `public/catalogues/`.
+2. Export its first page as a 600 px wide WebP into `public/images/catalogues/` (e.g. `sips -s format png --resampleWidth 600 file.pdf --out cover.png && cwebp -q 75 cover.png -o cover.webp`).
+3. Add or update its entry in `src/components/sections/Catalogues.tsx`.
+
+## Docs
+
+- `GLOSSARY.md` – the terms we use (Distributor, Dealer, Market, …)
+- `docs/adr/` – architecture decisions

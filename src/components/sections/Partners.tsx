@@ -20,12 +20,6 @@ const partners: Partner[] = [
     href: "https://sfnw.sk/",
     logo: "/images/logos/partners/SFNW.png",
   },
-  {
-    name: "GO NOOW",
-    title: "GO NOOW – športové oblečenie a palice",
-    href: "https://www.go-noow.sk/",
-    logo: "/images/logos/partners/GO-NOOW.png",
-  },
 ];
 
 export const Partners = () => {
