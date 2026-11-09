@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
-import { usePdfThumbnail } from "../../hooks/usePdfThumbnail";
 
 const catalogues = [
   {
@@ -9,44 +8,46 @@ const catalogues = [
     label: "Kolekcia 2026 / 2027",
     link: "Katalóg Snow",
     pdf: "/catalogues/snow_winter_26_27.pdf",
+    cover: "/images/catalogues/snow_winter_26_27.webp",
   },
   {
     title: "TREKING",
     label: "Leto 2026",
     link: "Katalóg Trekking",
     pdf: "/catalogues/trekking_summer_26.pdf",
+    cover: "/images/catalogues/trekking_summer_26.webp",
   },
   {
     title: "TRAIL RUNNING",
     label: "Leto 2026",
     link: "Katalóg Trail",
     pdf: "/catalogues/trail_running_summer_26.pdf",
+    cover: "/images/catalogues/trail_running_summer_26.webp",
   },
   {
     title: "NORDIC WALKING",
     label: "Leto 2026",
     link: "Katalóg Nordic",
     pdf: "/catalogues/nordic_walking_summer_26.pdf",
+    cover: "/images/catalogues/nordic_walking_summer_26.webp",
   },
 ];
 
 function CatalogueCard({ item }: { item: (typeof catalogues)[number]; key?: React.Key }) {
-  const { canvasRef, loading } = usePdfThumbnail(item.pdf);
-
   return (
     <motion.div
       whileHover={{ y: -10 }}
-      className="group relative aspect-[3/4] overflow-hidden rounded-sm border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+      className="group relative aspect-[3/4] overflow-hidden rounded-sm border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500 bg-gray-100"
     >
-      <canvas
-        ref={canvasRef}
-        className={`w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 opacity-80 group-hover:opacity-100 ${loading ? "invisible" : ""}`}
+      <img
+        src={item.cover}
+        alt={`Obálka katalógu ${item.title}`}
+        width={600}
+        height={849}
+        loading="lazy"
+        decoding="async"
+        className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 opacity-80 group-hover:opacity-100"
       />
-      {loading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-          <div className="w-8 h-8 border-2 border-black/20 border-t-black rounded-full animate-spin" />
-        </div>
-      )}
       <div className="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:opacity-0 transition-opacity duration-500" />
       <div className="absolute bottom-0 left-0 p-8 w-full">

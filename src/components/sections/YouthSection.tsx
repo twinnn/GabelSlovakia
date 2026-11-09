@@ -16,7 +16,7 @@ export const YouthSection = () => {
             viewport={{ once: true }}
             alt="Gabel 4 Youth"
             className="h-32 md:h-40 w-auto mb-8 object-contain"
-            src="/images/logos/Gabel4Youth.png"
+            src="/images/logos/Gabel4Youth.webp"
             referrerPolicy="no-referrer"
           />
           <motion.p
